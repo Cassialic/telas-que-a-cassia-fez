@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fafafad7;}
+    background-color: #e1e3e4}
 
 .container {
     width: 80%;
@@ -23,19 +23,14 @@ body {
 
 
 
-.form-image img {
-
-    width: 37.4rem;
-}
-
 .form {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    padding: 3rem;
+    background-color: #ffffff;
+    padding: 8rem;
 }
 
 .form-header {
@@ -55,93 +50,26 @@ body {
     border-radius: 10px;
 }
 
-.input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
+.imagem{
+
+    float:left;
+    width: 250px;
 }
 
-.input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-}
+.imagema{
 
-.input-box input {
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
-    font-size: 0.8rem;
-}
-
-.input-box input:hover {
-    background-color: #eeeeee75;
-}
-
-.input-box input:focus-visible {
-    outline: 1px solid #4139e6;
-}
-
-.input-box label,
-.gender-title h6 {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
-.input-box input::placeholder {
-    color: #000000be;
-}
-
-.gender-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 .5rem;
-}
-
-.gender-input {
-    display: flex;
-    align-items: center;
-}
-
-.gender-input input {
-    margin-right: 0.35rem;
-}
-
-.gender-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
-
-.login-button {
-    display: flex;
-    align-items:center;
-}
-
-.login-button button {
-    border: none;
-    background-color: #4139e6;
-    padding: 0.4rem 1rem;
-    border-radius: 15px;
-    cursor: pointer;
-    width: 20%;
+    float:right;
+    width: 250px;
 
 }
 
-.login-button button:hover {
-    background-color: #4139e6;
+img{
+    width: 100%;
 }
 
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
+
+img{
+    width: 100%;
 }
 
 @media screen and (max-width: 1330px) {
